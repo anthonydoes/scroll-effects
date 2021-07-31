@@ -2,7 +2,7 @@
 
 body {
 	font-family: Fjord One;
-	font-size: 18px;
+	font-size: 22px;
 	line-height: 1.5;
 	
 	background-color: #174869;
@@ -33,7 +33,6 @@ h1 {
     background-color: #174869;
     padding: 20px;
     box-shadow: rgb(0 0 0 / 15%) 2.95px 2.95px 3.6px;
-    font-size: 60px;
 }
 
 section {
@@ -71,7 +70,9 @@ section img {
 
     body {
         width: 100%;
+        font-size: 60px;
     }
+
 }
 
 
