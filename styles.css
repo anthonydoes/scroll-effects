@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Fjord+One:regular');
+
+body {
+	font-family: Fjord One;
+	font-size: 18px;
+	line-height: 1.5;
+	
+	background-color: #174869;
+	color: #fefefe;
+	margin: 0 auto 300px auto;
+	width: 900px;
+  transition: background-color 1.2s ease;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  transition: all 0.5s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hidden {
+  transform: translateY(-100%);
+}
+
+h1 {
+	font-weight: 900;
+    background-color: #174869;
+    padding: 20px;
+    box-shadow: rgb(0 0 0 / 15%) 2.95px 2.95px 3.6px;
+    font-size: 60px;
+}
+
+section {
+  padding: 150px 0 150px 0;
+}
+
+section img {
+  width: 900px;
+  height: 600px;
+}
+
+.progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 20px;
+  background-color: #537b7c;
+}
+
+
+
+@media (max-width: 500px) {
+    section img {
+        margin-bottom: 140px;
+        margin-top: 140px;
+    }
+
+    body {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
