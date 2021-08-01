@@ -64,13 +64,21 @@ section img {
 
 @media (max-width: 500px) {
     section img {
-        margin-bottom: 140px;
-        margin-top: 140px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+
+    header {
+        margin-bottom: 60px;
     }
 
     body {
         width: 100%;
-        font-size: 60px;
+        font-size: 40px;
+    }
+
+    .first {
+        margin-top: 500px;
     }
 
 }
