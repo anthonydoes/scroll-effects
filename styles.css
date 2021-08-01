@@ -4,12 +4,11 @@ body {
 	font-family: Fjord One;
 	font-size: 22px;
 	line-height: 1.5;
-	
 	background-color: #174869;
 	color: #fefefe;
-	margin: 0 auto 300px auto;
+	margin: 0 auto 20px auto;
 	width: 900px;
-  transition: background-color 1.2s ease;
+    transition: background-color 1.2s ease;
 }
 
 header {
@@ -60,6 +59,11 @@ section img {
   background-color: #537b7c;
 }
 
+footer h1 {
+    text-align: center;
+    background-color: #756b90;
+}
+
 
 
 @media (max-width: 500px) {
@@ -81,6 +85,10 @@ section img {
         margin-top: 500px;
     }
 
+    footer h1 {
+        font-size: 46px;
+
+    }
 }
 
 
